@@ -1,0 +1,233 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #455077;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  ul{
+      position: absolute;
+      top: 10%;
+      left: 80%;
+      transform: translate(-50%,-50%);
+      margin: 0;
+      padding: 20px 0;
+      background-color: #f1f1f1;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.3);
+
+  }
+  ul li{
+      list-style: none;
+      text-align: center;
+      display: block;
+      border-right: 1px solid rgba(0,0,0,0.2);
+
+  }
+  ul li:last-child{
+      border-right: rgba(0,0,0,0.2);
+  }
+  ul li a
+  {
+      text-decoration: none;
+      padding: 0 50px;
+      display: block;
+
+  }
+  ul li a .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #ccc;
+    overflow: hidden;
+    margin: 0 auto 10px;
+
+}
+ul li a.icon .fa{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 34px;
+    transition: 0.5s;
+    color: #000;
+}
+:left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+
+}
+.left img
+{
+    width: 136px;
+}
+.btn{
+    position: absolute;
+    left: 47%;
+    top: 95%;
+    background-color: seashell;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 65px;
+}
+h1
+{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    left: 35%;
+    top: 2%;
+    font-size: 50px;
+}
+
+
+  
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+    border-radius: 15px;
+    
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    border-radius: 15px;
+    float: left;
+    width: 6%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+   
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+

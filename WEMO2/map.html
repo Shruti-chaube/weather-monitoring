@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+<style>
+    body{
+        background-color:#455077;
+    }
+    h1{
+        background-color: azure;
+        text-align: center;
+    }
+    form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+    border-radius: 15px;
+    
+  }
+  form.example button {
+    border-radius: 15px;
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  .region{
+      padding:-5px;
+     text-align: center; 
+     margin-left: 950px;
+     width:50%;
+     height:50px;
+  }
+  #map{
+    height:500px;
+    width:100%;
+  }
+</style>
+</head>
+<body>
+    <h1>MAP</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form><br><br>
+</div>
+<div id="map"></div>
+
+</script>
+<script async defer src ="https://maps.googleapis.com/maps/api/js?key= AIZaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initsMap"></script>
+<div class="region">
+    <select>
+      <option value="0">Change Region:</option>
+      <option value="1">NORTH AMERICA</option>
+      <option value="2">SOUTH AMERICA</option>
+      <option value="3">EUROPE</option>
+      <option value="4">ASIA</option>
+      <option value="5">AFRICA</option>
+      <option value="6">PACIFIC ISLAND</option>
+    </select>
+  </div>
+  
+
+
+
+</body>
+</html>
